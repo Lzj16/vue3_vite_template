@@ -3,7 +3,7 @@ name: deploy # workflow的名称
 
 on: # 指定触发workflow的条件，通常是某些事件
   push: #监听push操作
-    branches: [main] # master 分支有 push 时触发
+    branches: [master] # master 分支有 push 时触发
 
 
 jobs: # workflow的主体，表示要执行一项或多项任务
