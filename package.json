@@ -1,0 +1,53 @@
+{
+  "name": "vue3-vite-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write .",
+    "prepare": "husky install",
+    "test": "jest",
+    "homepage": "https://github.com/Lzj16/vue3-vite-template.git"
+  },
+  "lint-staged": {
+    "*.{vue,js}": "eslint --fix"
+  },
+  "dependencies": {
+    "pinia": "^2.0.32",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@commitlint/cli": "^17.5.0",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@types/jest": "^29.5.0",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "babel-jest": "^26.6.3",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.10.0",
+    "husky": "^8.0.0",
+    "jest": "^26.6.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.6",
+    "vite": "^4.2.1",
+    "vue-jest": "^5.0.0-alpha.10"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  }
+}
